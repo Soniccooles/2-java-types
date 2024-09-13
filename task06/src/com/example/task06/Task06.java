@@ -6,7 +6,7 @@ public class Task06 {
         int sum = x + y;
         if (sum == 0) return 1;
         int count = 0;
-        while (sum != 0)
+        while (sum <= -1 || sum >= 1)
         {
             sum /= 10;
             count += 1;
